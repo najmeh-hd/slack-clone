@@ -299,6 +299,7 @@ h5 {
 .nav-a5 {
   color: #1264a3;
   display: flex;
+  align-items: center;
   gap: 0px;
 }
 
@@ -1194,6 +1195,7 @@ h3 {
 
 .footer-div3 {
   display: flex;
+  flex-wrap: wrap;
   margin-inline: 30px;
   padding-top: 20px;
   gap: 20px;
