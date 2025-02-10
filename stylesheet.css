@@ -562,12 +562,23 @@ h2 {
   .section5-div1 {
     flex-direction: row !important;
   }
-}
 
-@media screen and (min-width: 1300px) {
+  .nav-a,
+  .img2 {
+    display: flex !important;
+  }
+
+  .div3-a {
+    display: block !important;
+  }
+
   .button2 {
     display: none !important;
   }
+}
+
+@media screen and (min-width: 1300px) {
+ 
 
   .div1 {
     border: 1px solid white;
@@ -577,14 +588,6 @@ h2 {
     padding-inline: 3%;
   }
 
-  .div3-a {
-    display: block !important;
-  }
-
-  .nav-a,
-  .img2 {
-    display: flex !important;
-  }
 
   .nav1 {
     padding-inline: 6%;
